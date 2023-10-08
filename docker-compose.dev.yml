@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    # Add any dev-specific configurations if needed
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "8080:8080"  # Example port forwarding for a web application

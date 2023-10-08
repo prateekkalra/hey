@@ -1,0 +1,15 @@
+node_modules
+.git
+.gitignore
+*.md
+dist
+apps/prerender/node_modules
+apps/prerender/dist
+apps/prerender/.git
+apps/prerender/.gitignore
+apps/prerender/*.md
+apps/web/node_modules
+apps/web/dist
+apps/web/.git
+apps/web/.gitignore
+apps/web/*.md
